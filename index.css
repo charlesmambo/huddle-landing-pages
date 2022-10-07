@@ -226,14 +226,26 @@ nav{
     background-color: #fff;
     padding:  20px 60px;  
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     margin-top: 150px;
 }
+@media screen and (max-width: 412px ) {
+    .community-section{
+        padding:  20px 48px;  
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        text-align: center  
+    }  
+    .community{
+        position: relative;
+        left: 40px;
+    }
+}
 .community{
-    width:450px;
-    min-width: 400px;
+    width: 35vw;
+    min-width: 420px;
     background-color: #fff;
     text-align: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -241,6 +253,8 @@ nav{
     padding: 60px  40px 40px 40px;
     position: absolute;
     z-index: 4;
+    /* border: 1px solid red; */
+    margin: auto;
 }
 h2{
     color: hsl(192, 100%, 9%);
