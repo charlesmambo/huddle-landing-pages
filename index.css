@@ -48,6 +48,7 @@ nav{
 .nav-btn{
     border: none;
     width: 200px;
+    height: 45px;
     min-width: 150px;
     background-color: #fff;
     font-weight: 600;
@@ -79,6 +80,7 @@ nav{
 }
 .explore-btn{
     width: 220px;
+    height: 45px;
     padding: 13px;
     background-color: hsl(322, 100%, 66%);
     color: #fff;
